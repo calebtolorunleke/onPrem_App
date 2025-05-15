@@ -4,7 +4,9 @@ import "./App.css";
 // import LoginState from "./components/LoginState";
 // import { Conditional } from "./components/Conditional";
 // import Activity1 from "./components/Activity1";
-import Cart from "./components/cart/cart";
+// import Cart from "./components/cart/cart";
+// import { EffectBasics } from "./components/EffectBasics";
+import DataFetching from "./components/DataFetching.jsx";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -15,7 +17,9 @@ function App() {
       {/* <LoginState /> */}
       {/* <Conditional /> */}
       {/* <Activity1 /> */}
-      <Cart />
+      {/* <Cart /> */}
+      {/* <EffectBasics /> */}
+      <DataFetching />
     </>
   );
 }

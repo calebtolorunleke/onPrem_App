@@ -1,1 +1,5 @@
-hooks
+hook that allows components to perform side effect
+useEffect(cb, [])
+useEffect (() => {
+    side effect
+})
